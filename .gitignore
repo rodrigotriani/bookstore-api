@@ -1,0 +1,39 @@
+# Build output
+target/
+build/
+*.class
+*.jar
+*.war
+
+# Logs
+*.log
+logs/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+.bob/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets and local configuration
+.env
+.env.*
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+*.token
+credentials*
+application-local*.properties
+application-local*.yml
